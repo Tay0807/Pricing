@@ -35,6 +35,7 @@
     }
 
     .home{
-        height: fit-content;
+        align-items: center;
+        justify-content: space-between;
     }
 }
