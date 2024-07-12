@@ -11,6 +11,7 @@ body{
     align-items: center;
     display: flex;
     flex-direction: column;
+    height: fit-content;
 }
 
 .home{
@@ -18,7 +19,7 @@ body{
     align-items: center;
     gap: 50px;
     justify-content: space-between;
-    height: 100vh;
+    height: 90vh;
 }
 
 .home .informacoes{
@@ -42,20 +43,6 @@ body{
     margin-bottom: 10px;
 }
 
-
-.home .container-foto .foto{
-    width: 300px;
-    height: 270px;
-    border-radius: 30%;
-}
-
-.home .container-foto img{
-    width: 100%;
-}
-
-.home .foto.sombra-interna {
-    background: white;
-}
 
 .projetos{
     padding: 70px 70px;
