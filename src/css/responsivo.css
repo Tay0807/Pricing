@@ -59,8 +59,7 @@
     }
 
     button{
-        font-size: 10px;
-        width: 13em;
+        display: none;
     }
     
 }
