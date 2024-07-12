@@ -18,7 +18,7 @@ body{
     align-items: center;
     gap: 50px;
     justify-content: space-between;
-    height: 90vh;
+    max-height: 90vh;
 }
 
 .home .informacoes{
