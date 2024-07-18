@@ -3,23 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto de automação com python</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/responsivo.css">
-    <link rel="website icon" type="png" href="./src/imagens/Logo.png">
+    <title>PRICING</title>
 </head>
 <body>
-    <section class="home">
-        <div class="informacoes">
-            <h1>Projeto de automação: <span>Pricing</span></h1>
-            <p>Projeto em Python que automatiza a cotação de preços de commodities em um site específico, monitorando mudanças diárias. A motivação surgiu da necessidade de otimizar o tempo e aumentar a eficiência na coleta e análise de dados.</p>
+    <section id="section_header">
+        <div id="container_textos_header_info">
+                <div >
+                    <img src="./src/imagens/Logo.png" alt="">
+                </div>
+                <p class="texto_descricao_header">Projeto em Python que automatiza a cotação de preços de commodities, monitorando mudanças diárias. A motivação surgiu da necessidade de otimizar o tempo e aumentar a eficiência na coleta e análise de dados.</p>
+                <div id="container_buttons">
+                    <button class="bnt">+ Sobre o projeto</button>
+                    <button class="bnt">Ver vídeo</button>
+                </div>
         </div>
+    </section>
+
+    <section id="section_descricao">
+        <p class="titulo">O que é o PRICING ?</p>
+        <div class="line_descricao"></div>
+        <p class="texto_descricao">Pricing é um projeto focado em mostrar como a tecnologia pode estar presente no nosso dia-a-dia, de forma que ajude a otimizar o tempo e realizar tarefas manuais de forma automática.</p>
         <div class="container">
             <div style="--r:-15;" class="glass">
                 <img class="tam_img" src="./src/imagens/foto_um.png" alt="Imagem ilustrativa do pricing">
@@ -33,12 +39,101 @@
         </div>
     </section>
 
-    <button><a href="#projetos">Vídeo do projeto</a></button>
-
-    <section class="projetos" id="projetos">
-        <div id="container_video">
-            <video src="./src/imagens/Projeto Automação.mp4" controls poster="./src/imagens/Capa.png"></video>
+    <section id="section_faixa">
+        <img class="img_faixa" src="./src/imagens/Faixa.png" alt="">
+        <div>
+            <div class="line_faixa"></div>
+            <p class="txt_faixa">Sobre o projeto</p>
+            <div id="container_line_baixo">
+                <div class="line_faixa"></div>
+            </div>
         </div>
     </section>
+
+    <section id="section_bibliotecas">
+        <p class="txt_biblio">Bibliotecas</p>
+        <p class="txt_biblio_subt">Que foram <span>usadas</span></p>
+        <div id="container_logos">
+            <div id="container_card">
+                <div class="card_img"><img class="img_card" src="./src/imagens/Custom_Logo.png" alt=""></div>
+                <p class="name_txt_biblioteca">CustomTkinter</p>
+                <a href="https://pypi.org/project/customtkinter/0.3/">Sobre a biblioteca</a>
+            </div>
+            <div id="container_card">
+                <div class="card_img"><img class="img_card" src="./src/imagens/Pandas_Logo.png" alt=""></div>
+                <p class="name_txt_biblioteca">Pandas</p>
+                <a href="https://hub.asimov.academy/blog/pandas-python/">Sobre a biblioteca</a>
+            </div>
+            <div id="container_card">
+                <div class="card_img" ><img class="img_card" src="./src/imagens/Selenium_Logo.png" alt=""></div>
+                <p class="name_txt_biblioteca">Selenium</p>
+                <a href="https://hub.asimov.academy/tutorial/guia-basico-de-selenium-com-python/">Sobre a biblioteca</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="section_etapa">
+        <div class="container_etapas">
+            <p class="titulo titu_etapa">Etapas do projeto</p>
+            <img class="IMG_etapa" src="./src/imagens/etapa_imagem.png" alt="">
+        </div>
+        <div>
+            <div class="etapas-slider">
+                <button class="btn-seta btn-voltar" id="btn-voltar">
+                    <img src="./src/imagens/seta.png" alt="seta para voltar a imagem">
+                </button>
+        
+                <ul class="lista-personagens">
+                    <li class="cartao selecionado fundo-1">
+                        <h2 class="nome">Adicionar o email</h2>
+        
+                        <img class="imagem-personagem" src="src/imagens/1.png" alt="Foto etapa 1" />
+        
+                        <div class="descricao">
+                            <h3 class="titulo">Descrição</h3>
+                            <p class="texto">A primeira etapa do projeto é adicionar o email que irá receber as informações.</p>
+                        </div>
+                    </li>
+        
+                    <li class="cartao fundo-2">
+        
+                        <h2 class="nome">Automação</h2>
+        
+                        <img class="imagem-personagem" src="src/imagens/2.png" alt="Foto etapa 2" />
+        
+                        <div class="descricao">
+                            <h3 class="titulo">Descrição</h3>
+                            <p class="texto">A segunda etapa consiste em esperar alguns segundos para que o programa realize a cotação e termine a automatização.</p>
+                        </div>
+                    </li>
+        
+                    <li class="cartao fundo-3">
+        
+                        <h2 class="nome">Olhar o e-mail</h2>
+        
+                        <img class="imagem-personagem" src="src/imagens/3.png" alt="Foto etapa 3" />
+        
+                        <div class="descricao">
+                            <h3 class="titulo">Descrição</h3>
+                            <p class="texto">Essa é a última etapa. Todas as informações vão ser enviadas para você em forma de dashboard. Nessa etapa, o programa envia um mensagem ao seu e-mail avisando que a cotação já está pronta e que já pode vizualizar o dashboard com as informações atualizadas.</p>
+                        </div>
+                    </li>
+                    
+                </ul>
+        
+                <button class="btn-seta" id="btn-avancar">
+                    <img src="./src/imagens/seta.png" alt="seta para avançar a imagem">
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="section_video" >
+        <p class="titulo sectio_videotxt">Veja um vídeo do projeto funcionando:</p>
+        <div class="div_frame_video">
+            <video src="./src/imagens/Projeto Automação.mp4" poster="./src/imagens/Capa.png" width="500" height="50%" controls ></video>
+        </div>
+    </section>
+    <script src="./src/js/index.js"></script>
 </body>
 </html>
