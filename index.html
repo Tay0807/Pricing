@@ -6,41 +6,46 @@
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/responsivo.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>PRICING</title>
 </head>
 <body>
-    <section id="section_header">
-        <div id="container_textos_header_info">
-                <div >
-                    <img src="./src/imagens/Logo.png" alt="">
-                </div>
-                <p class="texto_descricao_header">Projeto em Python que automatiza a cotação de preços de commodities, monitorando mudanças diárias. A motivação surgiu da necessidade de otimizar o tempo e aumentar a eficiência na coleta e análise de dados.</p>
-                <div id="container_buttons">
-                    <button class="bnt">+ Sobre o projeto</button>
-                    <button class="bnt">Ver vídeo</button>
-                </div>
+    <section id="section_header" data-aos="fade-in" data-aos-duration="1500">
+        <div id="container_textos_header_info" data-aos="zoom-in" data-aos-delay="500">
+            <div>
+                <img src="./src/imagens/Logo.png" alt="Logo do Projeto">
+            </div>
+            <p class="texto_descricao_header" data-aos="fade-up" data-aos-delay="1000">
+                Projeto em Python que automatiza a cotação de preços de commodities, monitorando mudanças diárias. A motivação surgiu da necessidade de otimizar o tempo e aumentar a eficiência na coleta e análise de dados.
+            </p>
+            <div id="container_buttons">
+                <button class="bnt" data-aos="fade-right" data-aos-delay="1500">+ Sobre o projeto</button>
+                <button class="bnt" data-aos="fade-left" data-aos-delay="1500">Ver vídeo</button>
+            </div>
         </div>
     </section>
 
-    <section id="section_descricao">
+    <section id="section_descricao" data-aos="fade-up" data-aos-duration="1500">
         <p class="titulo">O que é o PRICING ?</p>
         <div class="line_descricao"></div>
-        <p class="texto_descricao">Pricing é um projeto focado em mostrar como a tecnologia pode estar presente no nosso dia-a-dia, de forma que ajude a otimizar o tempo e realizar tarefas manuais de forma automática.</p>
+        <p class="texto_descricao">
+            Pricing é um projeto focado em mostrar como a tecnologia pode estar presente no nosso dia-a-dia, de forma que ajude a otimizar o tempo e realizar tarefas manuais de forma automática.
+        </p>
         <div class="container">
-            <div style="--r:-15;" class="glass">
+            <div style="--r:-15;" class="glass" >
                 <img class="tam_img" src="./src/imagens/foto_um.png" alt="Imagem ilustrativa do pricing">
             </div>
-            <div style="--r:5;" class="glass">
+            <div style="--r:5;" class="glass" >
                 <img class="tam_img" src="./src/imagens/foto_dois.png" alt="Imagem ilustrativa do site usado para pegar as cotações">
             </div>
-            <div style="--r:25;" class="glass">
+            <div style="--r:25;" class="glass" >
                 <img class="tam_img" src="./src/imagens/foto_tres.png" alt="Imagem ilustrativa do email enviado">
             </div>
         </div>
     </section>
 
-    <section id="section_faixa">
-        <img class="img_faixa" src="./src/imagens/Faixa.png" alt="">
+    <section id="section_faixa" data-aos="fade-up" data-aos-duration="1500">
+        <img class="img_faixa" src="./src/imagens/Faixa.png" alt="Faixa do Projeto">
         <div>
             <div class="line_faixa"></div>
             <p class="txt_faixa">Sobre o projeto</p>
@@ -50,32 +55,32 @@
         </div>
     </section>
 
-    <section id="section_bibliotecas">
+    <section id="section_bibliotecas" data-aos="fade-up" data-aos-duration="1500">
         <p class="txt_biblio">Bibliotecas</p>
         <p class="txt_biblio_subt">Que foram <span>usadas</span></p>
         <div id="container_logos">
-            <div id="container_card">
-                <div class="card_img"><img class="img_card" src="./src/imagens/Custom_Logo.png" alt=""></div>
+            <div id="container_card" data-aos="flip-left" data-aos-delay="300">
+                <div class="card_img"><img class="img_card" src="./src/imagens/Custom_Logo.png" alt="CustomTkinter Logo"></div>
                 <p class="name_txt_biblioteca">CustomTkinter</p>
                 <a href="https://pypi.org/project/customtkinter/0.3/">Sobre a biblioteca</a>
             </div>
-            <div id="container_card">
-                <div class="card_img"><img class="img_card" src="./src/imagens/Pandas_Logo.png" alt=""></div>
+            <div id="container_card" data-aos="flip-left" data-aos-delay="600">
+                <div class="card_img"><img class="img_card" src="./src/imagens/Pandas_Logo.png" alt="Pandas Logo"></div>
                 <p class="name_txt_biblioteca">Pandas</p>
                 <a href="https://hub.asimov.academy/blog/pandas-python/">Sobre a biblioteca</a>
             </div>
-            <div id="container_card">
-                <div class="card_img" ><img class="img_card" src="./src/imagens/Selenium_Logo.png" alt=""></div>
+            <div id="container_card" data-aos="flip-left" data-aos-delay="900">
+                <div class="card_img"><img class="img_card" src="./src/imagens/Selenium_Logo.png" alt="Selenium Logo"></div>
                 <p class="name_txt_biblioteca">Selenium</p>
                 <a href="https://hub.asimov.academy/tutorial/guia-basico-de-selenium-com-python/">Sobre a biblioteca</a>
             </div>
         </div>
     </section>
 
-    <section id="section_etapa">
+    <section id="section_etapa" data-aos="fade-up" data-aos-duration="1500">
         <div class="container_etapas">
             <p class="titulo titu_etapa">Etapas do projeto</p>
-            <img class="IMG_etapa" src="./src/imagens/etapa_imagem.png" alt="">
+            <img class="IMG_etapa" src="./src/imagens/etapa_imagem.png" alt="Imagem das Etapas">
         </div>
         <div>
             <div class="etapas-slider">
@@ -84,56 +89,50 @@
                 </button>
         
                 <ul class="lista-personagens">
-                    <li class="cartao selecionado fundo-1">
+                    <li class="cartao selecionado fundo-1" >
                         <h2 class="nome">Adicionar o email</h2>
-        
-                        <img class="imagem-personagem" src="src/imagens/1.png" alt="Foto etapa 1" />
-        
+                        <img class="imagem-personagem" src="src/imagens/1.png" alt="Foto etapa 1">
                         <div class="descricao">
                             <h3 class="titulo">Descrição</h3>
                             <p class="texto">A primeira etapa do projeto é adicionar o email que irá receber as informações.</p>
                         </div>
                     </li>
-        
-                    <li class="cartao fundo-2">
-        
+                    <li class="cartao fundo-2" >
                         <h2 class="nome">Automação</h2>
-        
-                        <img class="imagem-personagem" src="src/imagens/2.png" alt="Foto etapa 2" />
-        
+                        <img class="imagem-personagem" src="src/imagens/2.png" alt="Foto etapa 2">
                         <div class="descricao">
                             <h3 class="titulo">Descrição</h3>
                             <p class="texto">A segunda etapa consiste em esperar alguns segundos para que o programa realize a cotação e termine a automatização.</p>
                         </div>
                     </li>
-        
-                    <li class="cartao fundo-3">
-        
+                    <li class="cartao fundo-3" >
                         <h2 class="nome">Olhar o e-mail</h2>
-        
-                        <img class="imagem-personagem" src="src/imagens/3.png" alt="Foto etapa 3" />
-        
+                        <img class="imagem-personagem" src="src/imagens/3.png" alt="Foto etapa 3">
                         <div class="descricao">
                             <h3 class="titulo">Descrição</h3>
-                            <p class="texto">Essa é a última etapa. Todas as informações vão ser enviadas para você em forma de dashboard. Nessa etapa, o programa envia um mensagem ao seu e-mail avisando que a cotação já está pronta e que já pode vizualizar o dashboard com as informações atualizadas.</p>
+                            <p class="texto">Essa é a última etapa. Todas as informações vão ser enviadas para você em forma de dashboard. Nessa etapa, o programa envia um mensagem ao seu e-mail avisando que a cotação já está pronta e que já pode visualizar o dashboard com as informações atualizadas.</p>
                         </div>
                     </li>
-                    
                 </ul>
         
-                <button class="btn-seta" id="btn-avancar">
+                <button class="btn-seta" id="btn-avancar" >
                     <img src="./src/imagens/seta.png" alt="seta para avançar a imagem">
                 </button>
             </div>
         </div>
     </section>
 
-    <section id="section_video" >
+    <section id="section_video" data-aos="fade-up" data-aos-duration="1500">
         <p class="titulo sectio_videotxt">Veja um vídeo do projeto funcionando:</p>
-        <div class="div_frame_video">
-            <video src="./src/imagens/Projeto Automação.mp4" poster="./src/imagens/Capa.png" width="500" height="50%" controls ></video>
+        <div class="div_frame_video" data-aos="zoom-in" data-aos-delay="500">
+            <video src="./src/imagens/Projeto Automação.mp4" poster="./src/imagens/Capa.png" width="500" height="50%" controls></video>
         </div>
     </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="./src/js/index.js"></script>
 </body>
 </html>
